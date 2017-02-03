@@ -12,18 +12,9 @@ body {
       background: black;
 }
 
-.container {
-      max-width: 65rem;
+/*.container {
+      max-width: 90%;
       margin: 0 auto;
-}
-
-.prompt {
-  text-align: center;
-  color: white;
-}
-
-/*.logo {
-  width: 12rem;
 }*/
 
 /*Grid*/
@@ -31,37 +22,71 @@ body {
 .grid {
   overflow: auto;
   background: green;
+  margin: 0;
 }
 
-/*.row {
-  overflow: auto;
-  margin: -2rem;
-
-}
-*/
 
 .grid-item {
     width: calc(100% / 3 - 1rem - 1rem);
     min-width: 8rem;
     float: left;
-    margin: 0.3rem;
+    margin: 1rem;
 }
 
 /*Profile*/
 
 .profile {
     margin: 0;
-}
+    padding: 1rem;
+    border: solid 0.1rem #efefef;
+    border-radius: 0.5rem;
 
-.avatar__pic * {
 }
 
 img {
   max-width: 100%;
 }
 
-.avatar__username {
-  color: red;
-  text-align: center;
-  font-size: 1.3rem;
+/* Bottom Slot */
+
+.info__slot {
+  overflow: auto;
+  border-bottom: .1rem solid #aaa;
+  color: white;
+  padding: 0.2rem;
+  font-size: 1rem;
+}
+
+p {
+  padding: .5rem 1rem;
+  margin: 0;
+  overflow: auto;
+}
+
+.number {
+  display: inline-block;
+  float: left;
+  margin: 0;
+  font-size: 1rem;
+  padding: .2rem;
+  vertical-align: center;
+}
+
+.icon {
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 5%;
+    float: right;
+    margin: 0;
+    padding: .2rem;
+}
+
+.item__right {
+  float: right;
+  display: inline-block;
+  margin: 0;
+  padding: .2rem;
+  font-size: 1rem;
+  vertical-align: center;
 }
