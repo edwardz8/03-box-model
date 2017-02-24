@@ -6,3 +6,75 @@ body {
 * {
   box-sizing: border-box;
 }
+
+.section {
+      padding: 2rem;
+      background: white;
+}
+
+.container {
+      max-width: 100%;
+      margin: 0 auto;
+}
+
+/*Grid*/
+
+.grid {
+  overflow: auto;
+  background: white;
+  margin: 0;
+}
+
+
+.grid-item {
+    width: calc(100% / 3 - 1rem - 1rem);
+    min-width: 8rem;
+    float: left;
+    margin: 1rem;
+}
+
+/*Profile*/
+
+.profile {
+    margin: 0;
+    padding: 1rem;
+    border: solid 0.1rem #aaa;
+    border-radius: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+}
+/* Bottom Slot */
+
+.info__slot {
+  line-height: 2.5rem;
+  overflow: auto;
+  border-bottom: .1rem solid #aaa;
+  color: white;
+  padding: 0.3rem 0;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.number {
+  float: left;
+  margin: 0;
+  font-size: 1rem;
+  color: #848798;
+}
+
+.item__right {
+  float: right;
+  margin: 0;
+  font-size: 1rem;
+  color: #848798;
+
+}
+
+.icon {
+  height: 2.3rem;
+  border-radius: 0.5rem;
+  margin-left: 0.2rem;
+  vertical-align: middle;
+}
